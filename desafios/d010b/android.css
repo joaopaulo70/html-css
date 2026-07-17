@@ -4,7 +4,7 @@
 
 @font-face {
     font-family: 'Android';
-    src: url('/fontes/idroid.otf') format('opentype');
+    src: url('fontes/idroid.otf') format('opentype');
     font-weight: normal;
 }
 
@@ -122,7 +122,7 @@ main strong {
     font-weight: bold;
 }
 
-main a {
+body a {
     text-decoration: none;
     font-weight: bold;
     color: var(--cor5);
@@ -130,9 +130,9 @@ main a {
     padding: 2px 6px;
 }
 
-main a:hover {
+body a:hover {
     text-decoration: underline;
-    color: var(--cor4)
+    color: var(--cor4);
 }
 
 main img {
