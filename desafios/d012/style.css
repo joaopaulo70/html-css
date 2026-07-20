@@ -44,6 +44,7 @@ section.parallax {
     display: block;
     background-position: right center;
     background-attachment: fixed;
+    background-size: cover;
     height: 800px;
 }
 
