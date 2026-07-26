@@ -1,0 +1,49 @@
+@charset "UTF-8";
+
+/* Todas as demais mídias */
+
+/* 
+
+Celulares e telas pequenas: 320px - 360px
+Celulares na horizontal e Tablets menores: 480px - 640px
+Tablets comuns: 768px - 1024px
+Desktops e Laptops: 1200px - 1440px
+TV e Grandes Telas: no mínimo 1920px
+
+*/
+
+@media screen and (min-width: 480px) and (max-width: 640px){
+    span#burguer {
+        display: none;
+    }
+
+    menu {
+        display: block;
+    }
+
+    menu > ul > li {
+        display: inline-block;
+    }
+
+    main {
+        max-width: 480px
+    }
+}
+
+@media screen and (min-width: 768px) {
+    span#burguer {
+        display: none;
+    }
+
+    menu {
+        display: block;
+    }
+
+    menu > ul > li {
+        display: inline-block;
+    }
+
+    main {
+        max-width: 768px;
+    }
+}
