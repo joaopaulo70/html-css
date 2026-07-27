@@ -1,0 +1,101 @@
+@charset "UTF-8";
+
+/* Mobile First */
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+html {
+    background-color: #5F2C82;
+    height: 100vh;
+    width: 100vw;
+}
+
+main > section#login {
+    background-color: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.450);
+    width: 50%;
+    margin: auto;
+    margin-top: 8vh;
+    margin-bottom: 8vh;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+div#imagem {
+    background-image: url(../imagens/metal.jpg);
+    background-position: left bottom;
+    background-size: cover;
+    height: 35vh;
+    margin: -10px;
+    border-radius: 30px 30px 0px 0px;
+}
+
+section h1 {
+    text-align: center;
+    padding: 30px;
+    font-size: 2.5em;
+}
+
+section p {
+    text-align: justify;
+}
+
+section input {
+    font-size: 20px;
+}
+
+form > div.campo {
+    display: block;
+    background-color: #5F2C82;
+    border: 2px solid #5F2C82;
+    margin: 5px 0px;
+    height: 50px;
+    width: 100%;
+    border-radius: 8px;
+}
+
+div.campo > span {
+    color: white;
+    font-size: 2em;
+    width: 40px;
+    padding: 5px;
+}
+
+div.campo > input {
+    background-color: #94CFCD;
+    font-size: 1em;
+    width: calc(100% - 45px);
+    height: 100%;
+    border: 0px;
+    padding: 4px;
+    border-radius: 8px;
+    transform: translateY(-8px);
+}
+
+form > input {
+    background-color: #53AAA7;
+    color: white;
+    margin: 10px auto;
+    padding: 10px;
+    width: 100%;
+    height: 60px;
+    border-radius: 8px;
+}
+
+form > a.botao {
+    display: block;
+    color: #2D6462;
+    border: 1px solid #53AAA7;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.2em;
+    padding: 10px;
+    width: 100%;
+    height: 60px;
+    border-radius: 8px;
+}
