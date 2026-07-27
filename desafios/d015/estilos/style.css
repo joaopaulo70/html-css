@@ -2,18 +2,6 @@
 
 /* Mobile First */
 
-/* Todas as demais mídias */
-
-/* 
-
-Celulares e telas pequenas: 320px - 360px
-Celulares na horizontal e Tablets menores: 480px - 640px
-Tablets comuns: 768px - 1024px
-Desktops e Laptops: 1200px - 1440px
-TV e Grandes Telas: no mínimo 1920px
-
-*/
-
 * {
     margin: 0;
     padding: 0;
@@ -97,7 +85,7 @@ div.campo > input {
     transform: translateY(-8px);
 }
 
-form > div#login > input {
+form > div#entrar > input {
     background-color: #53AAA7;
     color: white;
     margin: 10px auto;
