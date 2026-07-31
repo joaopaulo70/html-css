@@ -21,6 +21,7 @@
     header {
         display: flex;
         flex-flow: row wrap;
+        justify-content: space-between;
     }
 
     span#burguer {
@@ -29,6 +30,11 @@
 
     nav {
         display: flex;
-        margin-left: auto;
+    }
+
+    main {
+        display: block;
+        width: 60%;
+        margin: 10px auto;
     }
 }
