@@ -5,6 +5,15 @@
         display: flex;
         flex-flow: column wrap;
         align-items: flex-start;
+        padding: 10px;
+    }
+
+    nav.show {
+        display: flex;
+    }
+
+    header > h1 {
+        border: 1px dotted black;
     }
 
     span#burguer {
@@ -14,6 +23,7 @@
     nav {
         display: flex;
         flex-flow: row wrap;
+        border: 1px dotted black;
     }
 }
 
@@ -21,7 +31,12 @@
     header {
         display: flex;
         flex-flow: row wrap;
-        justify-content: space-between;
+        justify-content:space-between;
+        padding: 10px;
+    }
+
+    nav.show {
+        display: flex;
     }
 
     span#burguer {

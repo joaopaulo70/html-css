@@ -35,9 +35,18 @@
     </main>
     <script>
         function clickmenu() {
-            var itens = document.getElementById("itens");
-            itens.classList.toggle("show");
+            if (window.matchMedia('(max-width: 669px)').matches) {
+                var itens = document.getElementById("itens");
+                itens.classList.toggle("show");
+            }
         }
+
+        window.addEventListener('resize', function () {
+            var itens = document.getElementById("itens");
+            if (window.matchMedia('(min-width: 670px)').matches) {
+                itens.classList.remove("show");
+            }
+        });
     </script>
 </body>
 </html>
