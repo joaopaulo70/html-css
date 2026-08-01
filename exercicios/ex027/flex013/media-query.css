@@ -12,10 +12,6 @@
         display: flex;
     }
 
-    header > h1 {
-        border: 1px dotted black;
-    }
-
     span#burguer {
         display: none;
     }
@@ -23,7 +19,6 @@
     nav {
         display: flex;
         flex-flow: row wrap;
-        border: 1px dotted black;
     }
 }
 
